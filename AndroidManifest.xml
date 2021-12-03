@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Recipe">
         <activity
+            android:name=".hiball"
+            android:exported="true" />
+        <activity
             android:name=".dumpling_menu"
             android:exported="true" />
         <activity
@@ -38,6 +41,7 @@
         <activity android:name=".activity_kimchi_menu" />
         <activity android:name=".activity_egg_menu" />
         <activity android:name=".activity_dumpling_menu" />
+        <activity android:name=".activity_hiball" />
     </application>
 
 </manifest>
