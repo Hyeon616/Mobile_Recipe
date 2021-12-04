@@ -10,6 +10,18 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Recipe">
         <activity
+            android:name=".hard_boiled"
+            android:exported="true" />
+        <activity
+            android:name=".fry"
+            android:exported="true" />
+        <activity
+            android:name=".steam"
+            android:exported="true" />
+        <activity
+            android:name=".blue_sapphire"
+            android:exported="true" />
+        <activity
             android:name=".hiball"
             android:exported="true" />
         <activity
@@ -42,6 +54,11 @@
         <activity android:name=".activity_egg_menu" />
         <activity android:name=".activity_dumpling_menu" />
         <activity android:name=".activity_hiball" />
+        <activity android:name=".activity_blue_sapphire" />
+        <activity android:name=".activity_steam" />
+        <activity android:name=".activity_air_fryer" />
+        <activity android:name=".activity_fry" />
+        <activity android:name=".activity_hard_boiled" />
     </application>
 
 </manifest>
