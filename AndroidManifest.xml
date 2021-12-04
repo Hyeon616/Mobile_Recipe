@@ -10,6 +10,21 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Recipe">
         <activity
+            android:name=".suyuk"
+            android:exported="true" />
+        <activity
+            android:name=".meat_bowl"
+            android:exported="true" />
+        <activity
+            android:name=".kimchi_jjigae"
+            android:exported="true" />
+        <activity
+            android:name=".kimchi_rice"
+            android:exported="true" />
+        <activity
+            android:name=".half_boiled"
+            android:exported="true" />
+        <activity
             android:name=".hard_boiled"
             android:exported="true" />
         <activity
@@ -59,6 +74,11 @@
         <activity android:name=".activity_air_fryer" />
         <activity android:name=".activity_fry" />
         <activity android:name=".activity_hard_boiled" />
+        <activity android:name=".activity_half_boiled" />
+        <activity android:name=".activity_kimchi_rice" />
+        <activity android:name=".activity_kimchi_jjigae" />
+        <activity android:name=".activity_meat_bowl" />
+        <activity android:name=".activity_suyuk" />
     </application>
 
 </manifest>
