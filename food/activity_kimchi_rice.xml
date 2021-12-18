@@ -25,7 +25,7 @@
             android:id="@+id/title"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="깁치 볶음밥"
+            android:text="김치 볶음밥"
             android:textSize="34sp"
             android:textStyle="bold" />
 
@@ -62,6 +62,21 @@
             android:layout_weight="1"
             android:text="3. 밥을 넣고 볶는다 (2분)"></TextView>
 
+    </LinearLayout>
+
+
+<!-- 타이머 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <Button
+            android:id="@+id/startTimer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="타이머" />
     </LinearLayout>
 
 </LinearLayout>
